@@ -314,9 +314,52 @@
       }
       .contact-linkedin a:hover { text-decoration: underline; }
 
+      /* ── Global overflow fix (prevents horizontal overflow killing vertical scroll) ── */
+      html, body {
+        overflow-x: hidden;
+        max-width: 100%;
+      }
+
+      /* ── Mobile overrides ── */
       @media (max-width: 768px) {
+        /* Process */
         .process-step::after { display: none; }
-        .process-step { max-width: 160px; }
+        .process-step {
+          min-width: 140px;
+          max-width: 48%;
+          flex: 0 0 48%;
+        }
+
+        /* CTA banner */
+        .cta-banner {
+          padding: 36px 20px;
+          border-radius: 12px;
+        }
+        .cta-banner h2 { font-size: 1.4rem; }
+        .cta-banner .cta-links a {
+          display: block;
+          margin: 8px auto;
+          max-width: 260px;
+          text-align: center;
+        }
+
+        /* Why section */
+        #why-section { padding: 48px 0; }
+        #process-section { padding: 48px 0; }
+
+        /* Service cards */
+        .service-card { padding: 24px 20px; }
+
+        /* Project cards */
+        .project-card .project-img { height: 170px; }
+      }
+
+      @media (max-width: 480px) {
+        .process-step {
+          min-width: 120px;
+          max-width: 48%;
+        }
+        .process-steps { gap: 8px 0; }
       }
     </style>
   </head>
@@ -352,7 +395,7 @@
       	<div class="overlay"></div>
         <div class="container">
           <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-          	<div class="one-third order-md-last img" style="background-image:url(images/PicMain.png); background-size: contain; margin-top: 10px; height: 900px;">
+          	<div class="one-third order-md-last img" style="background-image:url(images/PicMain.png); background-size: contain; margin-top: 10px; height: clamp(320px, 60vw, 900px);">
           		<div class="overlay"></div> 
           	</div>
 	          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -382,7 +425,7 @@
       	<div class="overlay"></div>
         <div class="container">
           <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-          	<div class="one-third order-md-last img" style="background-image:url(images/PicMain.png); background-size: contain; margin-top: 10px; height: 900px;">
+          	<div class="one-third order-md-last img" style="background-image:url(images/PicMain.png); background-size: contain; margin-top: 10px; height: clamp(320px, 60vw, 900px);">
           		<div class="overlay"></div>
           	</div> 
 	          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -410,7 +453,7 @@
   			<div class="col-md-6 col-lg-5 d-flex">
   				<div class="img-about img d-flex align-items-stretch">
   					<div class="overlay"></div>
-    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/PicMain.png); margin-bottom: 5px; background-size: cover; height: 700px;">
+    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/PicMain.png); margin-bottom: 5px; background-size: cover; height: clamp(300px, 50vw, 700px);">
     				</div>
   				</div>
   			</div>
