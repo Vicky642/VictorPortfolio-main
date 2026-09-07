@@ -321,6 +321,27 @@
       }
 
       /* ── Mobile overrides ── */
+      @media (max-width: 767px) {
+        /* Hide hero photo column on mobile — it overlaps the text */
+        .hero .one-third.img {
+          display: none !important;
+        }
+        /* Give the hero text full width */
+        .hero .one-forth {
+          width: 100% !important;
+          flex: 0 0 100% !important;
+          max-width: 100% !important;
+          padding: 100px 20px 60px !important;
+        }
+        .hero .slider-text {
+          justify-content: flex-start !important;
+        }
+        /* Hero heading sizes */
+        .hero .text h1 { font-size: 1.8rem !important; }
+        .hero .text h2 { font-size: 1.1rem !important; }
+        .hero .text p { font-size: 0.88rem !important; max-width: 100% !important; }
+      }
+
       @media (max-width: 768px) {
         /* Process */
         .process-step::after { display: none; }
