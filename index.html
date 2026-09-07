@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Victor Muchiri — Software Developer | Nairobi, Kenya</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Victor Muchiri is a full-stack software developer based in Nairobi, Kenya. Specialising in C# / .NET, MySQL, M-Pesa integration, web platforms, mobile applications and billing systems.">
+    <meta name="keywords" content="Victor Muchiri, software developer, Nairobi, Kenya, C# .NET, MySQL, M-Pesa integration, web development, mobile apps, billing systems">
+    <meta name="author" content="Victor Muchiri">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      /* ── Additional styles for new sections ── */
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+      .pill {
+        background: rgba(249, 109, 0, 0.15);
+        border: 1px solid rgba(249, 109, 0, 0.45);
+        color: #f96d00;
+        border-radius: 50px;
+        padding: 4px 14px;
+        font-size: 0.78rem;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        font-family: 'Inter', sans-serif;
+      }
+      .pill.secondary {
+        background: rgba(255,255,255,0.08);
+        border-color: rgba(255,255,255,0.2);
+        color: rgba(255,255,255,0.75);
+      }
+
+      /* ── Services grid ── */
+      .service-card {
+        background: #1a1a2e;
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 12px;
+        padding: 32px 28px;
+        height: 100%;
+        transition: border-color 0.3s, transform 0.3s;
+      }
+      .service-card:hover {
+        border-color: rgba(249, 109, 0, 0.5);
+        transform: translateY(-4px);
+      }
+      .service-card .icon {
+        font-size: 2rem;
+        color: #f96d00;
+        margin-bottom: 16px;
+        display: block;
+      }
+      .service-card h3 {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #fff;
+      }
+      .service-card p {
+        font-size: 0.88rem;
+        color: rgba(255,255,255,0.55);
+        line-height: 1.65;
+        margin: 0;
+      }
+
+      /* ── Projects ── */
+      .project-card {
+        background: #1a1a2e;
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 14px;
+        overflow: hidden;
+        transition: border-color 0.3s, transform 0.3s;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .project-card:hover {
+        border-color: rgba(249, 109, 0, 0.5);
+        transform: translateY(-4px);
+      }
+      .project-card .project-img {
+        height: 210px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+      .project-card .project-img .overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to bottom, transparent 40%, rgba(15,15,30,0.85));
+      }
+      .project-card .project-body {
+        padding: 24px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .project-card .project-url {
+        font-size: 0.75rem;
+        color: #f96d00;
+        letter-spacing: 0.5px;
+        margin-bottom: 6px;
+        text-decoration: none;
+        font-family: 'Inter', monospace;
+      }
+      .project-card h3 {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 8px;
+      }
+      .project-card .project-brief-label {
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #f96d00;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+      .project-card p {
+        font-size: 0.85rem;
+        color: rgba(255,255,255,0.55);
+        line-height: 1.65;
+        flex: 1;
+      }
+      .project-card .stack-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 14px;
+      }
+      .project-card .stack-tag {
+        background: rgba(249,109,0,0.12);
+        border: 1px solid rgba(249,109,0,0.3);
+        color: #f96d00;
+        font-size: 0.7rem;
+        font-weight: 600;
+        padding: 2px 10px;
+        border-radius: 50px;
+        font-family: 'Inter', sans-serif;
+      }
+      .project-card .project-link-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 16px;
+        font-size: 0.82rem;
+        font-weight: 600;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(249,109,0,0.5);
+        padding-bottom: 2px;
+        transition: color 0.2s, border-color 0.2s;
+        width: fit-content;
+      }
+      .project-card .project-link-btn:hover { color: #f96d00; border-color: #f96d00; }
+
+      /* ── Process Section ── */
+      #process-section {
+        background: #0f0f1e;
+        padding: 80px 0;
+      }
+      .process-steps {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+        position: relative;
+        justify-content: center;
+      }
+      .process-step {
+        flex: 1;
+        min-width: 160px;
+        max-width: 200px;
+        text-align: center;
+        padding: 20px 16px;
+        position: relative;
+      }
+      .process-step::after {
+        content: '';
+        position: absolute;
+        top: 30px;
+        right: -12px;
+        width: 24px;
+        height: 2px;
+        background: rgba(249,109,0,0.4);
+      }
+      .process-step:last-child::after { display: none; }
+      .process-step .step-num {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: rgba(249,109,0,0.12);
+        border: 2px solid #f96d00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        font-weight: 800;
+        color: #f96d00;
+        margin: 0 auto 14px;
+        font-family: 'Inter', sans-serif;
+      }
+      .process-step h4 {
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 8px;
+      }
+      .process-step p {
+        font-size: 0.8rem;
+        color: rgba(255,255,255,0.5);
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      /* ── Why Work With Me ── */
+      #why-section {
+        background: #13132a;
+        padding: 80px 0;
+      }
+      .why-item {
+        display: flex;
+        gap: 18px;
+        margin-bottom: 28px;
+        align-items: flex-start;
+      }
+      .why-item .why-icon {
+        width: 42px;
+        height: 42px;
+        min-width: 42px;
+        border-radius: 10px;
+        background: rgba(249,109,0,0.12);
+        border: 1px solid rgba(249,109,0,0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.15rem;
+        color: #f96d00;
+        margin-top: 2px;
+      }
+      .why-item h4 {
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 4px;
+      }
+      .why-item p {
+        font-size: 0.84rem;
+        color: rgba(255,255,255,0.5);
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      /* ── CTA Banner ── */
+      .cta-banner {
+        background: linear-gradient(135deg, #f96d00 0%, #c94e00 100%);
+        padding: 56px 40px;
+        border-radius: 16px;
+        text-align: center;
+      }
+      .cta-banner h2 { color: #fff; font-weight: 800; margin-bottom: 8px; }
+      .cta-banner p { color: rgba(255,255,255,0.85); margin-bottom: 24px; }
+      .cta-banner .cta-links a {
+        display: inline-block;
+        margin: 6px 8px;
+        padding: 12px 28px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-decoration: none;
+        transition: all 0.2s;
+      }
+      .cta-banner .cta-links a.btn-white {
+        background: #fff;
+        color: #f96d00;
+      }
+      .cta-banner .cta-links a.btn-white:hover {
+        background: rgba(255,255,255,0.85);
+      }
+      .cta-banner .cta-links a.btn-outline-white {
+        background: transparent;
+        color: #fff;
+        border: 2px solid rgba(255,255,255,0.6);
+      }
+      .cta-banner .cta-links a.btn-outline-white:hover {
+        background: rgba(255,255,255,0.1);
+      }
+
+      /* ── LinkedIn contact box ── */
+      .contact-linkedin a {
+        color: #f96d00;
+        text-decoration: none;
+        font-size: 0.88rem;
+      }
+      .contact-linkedin a:hover { text-decoration: underline; }
+
+      @media (max-width: 768px) {
+        .process-step::after { display: none; }
+        .process-step { max-width: 160px; }
+      }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Victor</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#process-section" class="nav-link"><span>Process</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+    <!-- ══════════════════════════════════════
+         HERO
+    ══════════════════════════════════════ -->
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+      <div class="slider-item ">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+          	<div class="one-third order-md-last img" style="background-image:url(images/PicMain.png); background-size: contain; margin-top: 10px; height: 900px;">
+          		<div class="overlay"></div> 
+          	</div>
+	          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+	          	<div class="text">
+	          		<span class="subheading">Hello!</span>
+		            <h1 class="mb-3 mt-3">I'm <span>Victor Muchiri</span></h1>
+		            <h2 class="mb-3">Software Developer</h2>
+		            <p class="mb-3" style="font-size:1rem; color:rgba(255,255,255,0.7); max-width:440px; line-height:1.7;">
+                  I build web platforms, mobile applications and billing systems — from the database and payment integrations right through to hosting and day-to-day operation.
+                </p>
+                <div class="pill-row mb-4">
+                  <span class="pill">C# / .NET</span>
+                  <span class="pill">MySQL</span>
+                  <span class="pill">JavaScript</span>
+                  <span class="pill">Tailwind CSS</span>
+                  <span class="pill">M-Pesa / Daraja</span>
+                  <span class="pill">WordPress</span>
+                </div>
+		            <p><a href="tel:+254742821949" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">My Projects</a></p>
+		          </div>
+	          </div>
+        	</div>
+        </div>
+      </div>
+
+      <div class="slider-item">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+          	<div class="one-third order-md-last img" style="background-image:url(images/PicMain.png); background-size: contain; margin-top: 10px; height: 900px;">
+          		<div class="overlay"></div>
+          	</div> 
+	          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+	          	<div class="text">
+	          		<span class="subheading">Based in Nairobi, Kenya</span>
+		            <h1 class="mb-3 mt-3">Payment integration · <span>Custom web systems</span> · Hosting</h1>
+		            <p class="mb-3" style="font-size:1rem; color:rgba(255,255,255,0.7); max-width:440px; line-height:1.7;">
+                  M-Pesa Daraja API · STK Push · C2B · B2C · FreeRADIUS · MikroTik · WireGuard VPN · USSD
+                </p>
+		            <p><a href="tel:+254742821949" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">My Projects</a></p>
+		          </div>
+	          </div>
+        	</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       ABOUT
+  ══════════════════════════════════════ -->
+  <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+  	<div class="container">
+  		<div class="row d-flex">
+  			<div class="col-md-6 col-lg-5 d-flex">
+  				<div class="img-about img d-flex align-items-stretch">
+  					<div class="overlay"></div>
+    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/PicMain.png); margin-bottom: 5px; background-size: cover; height: 700px;">
+    				</div>
+  				</div>
+  			</div>
+  			<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+  				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<h1 class="big">About</h1>
+		            <h2 class="mb-4">What I Do</h2>
+		            <p>I am a full-stack software developer based in Nairobi. I design and build custom web systems, company websites and mobile applications, and I run them in production afterwards — hosting, domains, backups, monitoring and support.</p>
+		            <p>Most of my work is for the Kenyan market, so payments, connectivity and cost matter as much as the code. I have built and maintain live systems that handle real customer money through M-Pesa daily, and I understand what it takes to keep a platform running reliably on local infrastructure rather than just shipping a site and disappearing.</p>
+		            <p>I work directly with clients, which means one point of contact, no account managers, and honest advice about what a project actually needs.</p>
+		            <ul class="about-info mt-4 px-md-0 px-2">
+		            	<li class="d-flex"><span>Name:</span> <span>Victor Muchiri</span></li>
+		            	<li class="d-flex"><span>Based in:</span> <span>Nairobi, Kenya — working countrywide &amp; remotely</span></li>
+		            	<li class="d-flex"><span>Phone:</span> <span><a href="tel:+254742821949" style="color:inherit;">+254 742 821 949</a></span></li>
+		            	<li class="d-flex"><span>Email:</span> <span><a href="mailto:vickymuchiri64@gmail.com" style="color:inherit;">vickymuchiri64@gmail.com</a></span></li>
+		            	<li class="d-flex"><span>LinkedIn:</span> <span><a href="https://linkedin.com/in/victor-muchiri-a7a7271a0" target="_blank" rel="noopener" style="color:inherit;">linkedin.com/in/victor-muchiri-a7a7271a0</a></span></li>
+		            </ul>
+		          </div>
+		        </div>
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+              	<p class="mb-4">
+	                <span class="number" data-number="4">0</span>
+	                <span>Live Projects</span>
+              	</p>
+              </div>
+	          </div>
+	        </div>
+      </div>
+  	</div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SERVICES
+  ══════════════════════════════════════ -->
+  <section class="ftco-section" id="services-section">
+  	<div class="container">
+  		<div class="row justify-content-center py-5 mt-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+        	<h1 class="big big-2">Services</h1>
+          <h2 class="mb-2">How I Can Help</h2>
+          <p style="color:rgba(255,255,255,0.5); max-width:560px; margin:0 auto 10px;">Full-cycle delivery — design, development, hosting and ongoing support from one developer.</p>
+        </div>
+      </div>
+  		<div class="row" style="gap: 0 0; row-gap: 24px;">
+
+        <!-- Service 1 -->
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="service-card">
+            <span class="icon"><i class="flaticon-web-design"></i></span>
+            <h3>Website Design &amp; Development</h3>
+            <p>Corporate websites, landing pages and e-commerce — custom built or on WordPress, responsive on every screen size, and fast to load.</p>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="service-card">
+            <span class="icon"><i class="flaticon-analysis"></i></span>
+            <h3>Custom Web Applications</h3>
+            <p>Business systems built around your workflow: dashboards, reporting, user roles, automated billing and REST APIs.</p>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="service-card">
+            <span class="icon" style="font-size:1.8rem;"><i class="ion-iphone"></i></span>
+            <h3>Mobile Application Development</h3>
+            <p>Android and iOS applications with a shared backend, so your website, app and admin panel all work from the same data.</p>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="service-card">
+            <span class="icon" style="font-size:1.8rem;"><i class="ion-cash"></i></span>
+            <h3>M-Pesa Integration</h3>
+            <p>Daraja API integration for STK push, C2B and B2C, with reconciliation, receipting and callback handling that survives real-world network failures.</p>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="service-card">
+            <span class="icon" style="font-size:1.8rem;"><i class="ion-earth"></i></span>
+            <h3>Domain Registration &amp; Integration</h3>
+            <p>Registering .co.ke and international domains, configuring DNS, business email, SSL certificates and connecting them to your systems.</p>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="service-card">
+            <span class="icon"><i class="flaticon-flasks"></i></span>
+            <h3>Web Hosting &amp; Server Management</h3>
+            <p>Managed hosting on servers I administer — SSL, automated backups, uptime monitoring and security patching handled for you.</p>
+          </div>
+        </div>
+
+        <!-- Service 7 -->
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="service-card">
+            <span class="icon" style="font-size:1.8rem;"><i class="ion-ios-pie"></i></span>
+            <h3>Database Design &amp; Optimisation</h3>
+            <p>MySQL schema design, query tuning and cleaning up slow or overgrown databases so systems stay quick as data grows.</p>
+          </div>
+        </div>
+
+        <!-- Service 8 -->
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="service-card">
+            <span class="icon"><i class="flaticon-ideas"></i></span>
+            <h3>Support &amp; Maintenance</h3>
+            <p>Ongoing updates, fixes and improvements after launch, on a retainer or as-needed basis.</p>
+          </div>
+        </div>
+
+  		</div>
+  	</div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SKILLS
+  ══════════════════════════════════════ -->
+		<section class="ftco-section" id="skills-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Skills</h1>
+            <h2 class="mb-4">My Skills</h2>
+          </div>
+        </div>
+				<div class="row">
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>C# / .NET</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="85"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+							    <span>85%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>MySQL</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="80"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+							    <span>80%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>JavaScript</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="75"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+							    <span>75%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Tailwind CSS</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="80"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+							    <span>80%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>M-Pesa / Daraja API</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="85"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+							    <span>85%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>WordPress</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="70"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+							    <span>70%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Knockout.js</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+							    <span>70%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>HTML / CSS</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							    <span>90%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+  <!-- ══════════════════════════════════════
+       PROJECTS
+  ══════════════════════════════════════ -->
+  <section class="ftco-section" id="projects-section">
+  	<div class="container">
+  		<div class="row justify-content-center pb-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+        	<h1 class="big big-2">Work</h1>
+          <h2 class="mb-2">Selected Work</h2>
+          <p style="color:rgba(255,255,255,0.5); max-width:520px; margin:0 auto 10px;">Live systems handling real customers and real money, built and maintained by me.</p>
+        </div>
+      </div>
+  		<div class="row" style="row-gap: 28px;">
+
+        <!-- Project 1: Agriwright -->
+        <div class="col-md-6 ftco-animate">
+          <div class="project-card">
+            <div class="project-img" style="background-image: url(images/project-4.jpg);">
+              <div class="overlay"></div>
+            </div>
+            <div class="project-body">
+              <a href="https://agriwright.com/" target="_blank" rel="noopener" class="project-url">agriwright.com ↗</a>
+              <h3>Agriwright — Website &amp; Mobile Application</h3>
+              <div class="project-brief-label">Brief</div>
+              <p>Design and build a public-facing website together with a companion mobile application for an agribusiness, giving the client one consistent brand presence across web and mobile.</p>
+              <div class="stack-tags">
+                <span class="stack-tag">Web Front-end</span>
+                <span class="stack-tag">Mobile App</span>
+                <span class="stack-tag">REST API</span>
+                <span class="stack-tag">MySQL</span>
+                <span class="stack-tag">Managed Hosting</span>
+              </div>
+              <a href="https://agriwright.com/" target="_blank" rel="noopener" class="project-link-btn">View live site →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Rework -->
+        <div class="col-md-6 ftco-animate">
+          <div class="project-card">
+            <div class="project-img" style="background-image: url(images/project-5.jpg);">
+              <div class="overlay"></div>
+            </div>
+            <div class="project-body">
+              <a href="https://rework.co.ke/" target="_blank" rel="noopener" class="project-url">rework.co.ke ↗</a>
+              <h3>Rework — Job Connection Platform for Young People</h3>
+              <div class="project-brief-label">Brief</div>
+              <p>Young Kenyans struggle to find their first paid work because they have no track record, while clients have no reliable way to judge someone starting out. A skills-first social platform bridging that gap.</p>
+              <div class="stack-tags">
+                <span class="stack-tag">Web App</span>
+                <span class="stack-tag">REST API</span>
+                <span class="stack-tag">MySQL</span>
+                <span class="stack-tag">Responsive Front-end</span>
+                <span class="stack-tag">Managed Hosting</span>
+              </div>
+              <a href="https://rework.co.ke/" target="_blank" rel="noopener" class="project-link-btn">View live site →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Smart Meter -->
+        <div class="col-md-6 ftco-animate">
+          <div class="project-card">
+            <div class="project-img" style="background-image: url(images/project-1.jpg);">
+              <div class="overlay"></div>
+            </div>
+            <div class="project-body">
+              <a href="https://smartmeter.billseazy.com/" target="_blank" rel="noopener" class="project-url">smartmeter.billseazy.com ↗</a>
+              <h3>Smart Meter — Rental &amp; Utility Management System</h3>
+              <div class="project-brief-label">Brief</div>
+              <p>Landlords were tracking tenants, meter readings and utility payments manually, making billing slow and disputes common. Automated invoicing and M-Pesa collection with real-time dashboards.</p>
+              <div class="stack-tags">
+                <span class="stack-tag">C# / .NET</span>
+                <span class="stack-tag">MySQL</span>
+                <span class="stack-tag">JavaScript</span>
+                <span class="stack-tag">M-Pesa Daraja API</span>
+                <span class="stack-tag">Self-managed Hosting</span>
+              </div>
+              <a href="https://smartmeter.billseazy.com/" target="_blank" rel="noopener" class="project-link-btn">View live site →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: InstantWifi -->
+        <div class="col-md-6 ftco-animate">
+          <div class="project-card">
+            <div class="project-img" style="background-image: url(images/project-6.jpg);">
+              <div class="overlay"></div>
+            </div>
+            <div class="project-body">
+              <a href="https://instantwifi.billseazy.com/" target="_blank" rel="noopener" class="project-url">instantwifi.billseazy.com ↗</a>
+              <h3>InstantWifi — WiFi Billing &amp; Hotspot Platform</h3>
+              <div class="project-brief-label">Brief</div>
+              <p>Small internet providers needed to sell WiFi access across multiple sites and collect payment automatically, without expensive vendor software. Customers buy a package over M-Pesa or USSD and get immediate access.</p>
+              <div class="stack-tags">
+                <span class="stack-tag">C# / .NET</span>
+                <span class="stack-tag">MySQL</span>
+                <span class="stack-tag">FreeRADIUS</span>
+                <span class="stack-tag">MikroTik RouterOS</span>
+                <span class="stack-tag">WireGuard VPN</span>
+                <span class="stack-tag">M-Pesa Daraja API</span>
+                <span class="stack-tag">USSD / Africa's Talking</span>
+              </div>
+              <a href="https://instantwifi.billseazy.com/" target="_blank" rel="noopener" class="project-link-btn">View live site →</a>
+            </div>
+          </div>
+        </div>
+
+  		</div>
+  	</div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       STATS COUNTER
+  ══════════════════════════════════════ -->
+  <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+  	<div class="container">
+			<div class="row d-md-flex align-items-center">
+        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18">
+            <div class="text">
+              <strong class="number" data-number="4">0</strong>
+              <span>Live Projects</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18">
+            <div class="text">
+              <strong class="number" data-number="10">0</strong>
+              <span>Happy Clients</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18">
+            <div class="text">
+              <strong class="number" data-number="1">0</strong>
+              <span>Developer. Start to Finish.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PROCESS
+  ══════════════════════════════════════ -->
+  <section id="process-section">
+    <div class="container">
+      <div class="row justify-content-center pb-5 pt-5 mt-3">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Process</h1>
+          <h2 class="mb-2">How a Project Runs</h2>
+          <p style="color:rgba(255,255,255,0.5); max-width:480px; margin:0 auto;">From first conversation to live system — and beyond.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center pb-5 ftco-animate">
+        <div class="col-12">
+          <div class="process-steps">
+            <div class="process-step">
+              <div class="step-num">01</div>
+              <h4>Discovery</h4>
+              <p>We agree exactly what the system must do, who uses it and what success looks like.</p>
+            </div>
+            <div class="process-step">
+              <div class="step-num">02</div>
+              <h4>Design</h4>
+              <p>Structure and screen designs for your approval before any code is written.</p>
+            </div>
+            <div class="process-step">
+              <div class="step-num">03</div>
+              <h4>Build</h4>
+              <p>Development in stages, with a live link so you can follow progress throughout.</p>
+            </div>
+            <div class="process-step">
+              <div class="step-num">04</div>
+              <h4>Launch</h4>
+              <p>Testing, domain and hosting setup, deployment and a walkthrough for your team.</p>
+            </div>
+            <div class="process-step">
+              <div class="step-num">05</div>
+              <h4>Support</h4>
+              <p>Fixes included after launch, with optional ongoing maintenance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       WHY WORK WITH ME
+  ══════════════════════════════════════ -->
+  <section id="why-section">
+    <div class="container">
+      <div class="row py-5 mt-3">
+        <div class="col-md-5 ftco-animate">
+          <h1 class="big" style="font-size:4rem; line-height:1;">Why</h1>
+          <h2 class="mb-4">Why Work With Me</h2>
+          <p style="color:rgba(255,255,255,0.55); line-height:1.75; font-size:0.9rem;">
+            You get a developer who is invested in your project's success long after the code ships — because I'm the one who also runs it.
+          </p>
+          <div class="mt-4">
+            <a href="tel:+254742821949" class="btn btn-primary py-3 px-4 mr-2">Call me</a>
+            <a href="mailto:vickymuchiri64@gmail.com" class="btn btn-white btn-outline-white py-3 px-4">Email me</a>
+          </div>
+        </div>
+        <div class="col-md-7 pl-md-5 ftco-animate" style="padding-top: 16px;">
+
+          <div class="why-item">
+            <div class="why-icon"><i class="ion-cash"></i></div>
+            <div>
+              <h4>Systems that handle money</h4>
+              <p>M-Pesa integration done properly, including the failure cases most implementations ignore.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon"><i class="ion-person"></i></div>
+            <div>
+              <h4>One person, start to finish</h4>
+              <p>Design, development, hosting and support from the same developer — nothing gets lost in handover.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon"><i class="ion-earth"></i></div>
+            <div>
+              <h4>Built for local conditions</h4>
+              <p>Optimised for Kenyan bandwidth, devices and payment habits.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon"><i class="ion-key"></i></div>
+            <div>
+              <h4>You own everything</h4>
+              <p>Full source code, domain and hosting accounts registered in your name.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-icon"><i class="ion-document-text"></i></div>
+            <div>
+              <h4>Clear pricing</h4>
+              <p>Itemised quotations, fixed scope, no surprises mid-project.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CTA HIRE ME BANNER
+  ══════════════════════════════════════ -->
+  <section class="ftco-section ftco-no-pt ftco-no-pb" style="padding: 40px 0;">
+		<div class="container">
+      <div class="cta-banner">
+        <h2>Let's talk about your project</h2>
+        <p>Available for new projects — web platforms, mobile apps, billing systems and M-Pesa integrations.</p>
+        <div class="cta-links">
+          <a href="tel:+254742821949" class="btn-white">📞 +254 742 821 949</a>
+          <a href="mailto:vickymuchiri64@gmail.com" class="btn-outline-white">✉ vickymuchiri64@gmail.com</a>
+          <a href="https://linkedin.com/in/victor-muchiri-a7a7271a0" target="_blank" rel="noopener" class="btn-outline-white">LinkedIn →</a>
+        </div>
+      </div>
+    </div>
+	</section>
+
+  <!-- ══════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════ -->
+  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <div class="container">
+    	<div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Contact</h1>
+          <h2 class="mb-4">Contact Me</h2>
+        </div>
+      </div>
+
+      <div class="row d-flex contact-info mb-5">
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+        	<div class="align-self-stretch box p-4 text-center">
+        		<div class="icon d-flex align-items-center justify-content-center">
+        			<span class="icon-map-signs"></span>
+        		</div>
+        		<h3 class="mb-4">Location</h3>
+            <p>Nairobi, Kenya</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+        	<div class="align-self-stretch box p-4 text-center">
+        		<div class="icon d-flex align-items-center justify-content-center">
+        			<span class="icon-phone2"></span>
+        		</div>
+        		<h3 class="mb-4">Phone</h3>
+            <p><a href="tel:+254742821949">+254 742 821 949</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+        	<div class="align-self-stretch box p-4 text-center">
+        		<div class="icon d-flex align-items-center justify-content-center">
+        			<span class="icon-paper-plane"></span>
+        		</div>
+        		<h3 class="mb-4">Email</h3>
+            <p><a href="mailto:vickymuchiri64@gmail.com">vickymuchiri64@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate contact-linkedin">
+        	<div class="align-self-stretch box p-4 text-center">
+        		<div class="icon d-flex align-items-center justify-content-center">
+        			<span class="icon-globe"></span>
+        		</div>
+        		<h3 class="mb-4">LinkedIn</h3>
+            <p><a href="https://linkedin.com/in/victor-muchiri-a7a7271a0" target="_blank" rel="noopener">victor-muchiri-a7a7271a0</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+	
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p style="text-align: center; padding: 24px 0 0; color: rgba(255,255,255,0.35); font-size: 0.85rem;">
+            &copy;<script>document.write(new Date().getFullYear());</script> Victor Muchiri · Software Developer · Nairobi, Kenya
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+
+</html>
